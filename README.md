@@ -1,1 +1,1 @@
-# dev checks poof of concept
+# Dev Checks script poof of concept.
