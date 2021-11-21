@@ -25,9 +25,9 @@ reportFile=dev_checks_report.html
 
 sed -i "s/$liveSiteUrl/$devSiteUrl/" "$fileOfUrls"
 cat "$fileOfUrls" | pup 'text{}' | sed -r '/^\s*$/d' | sed -n '/^http*/p' >"$tempEditFile"
+
 mapfile -t devUrls <"$tempEditFile"
 
-# separatorStart='<!-- ITEM : START -->'
 separatorEnd='<!-- ITEM : END -->'
 
 for url in "${devUrls[@]}"; do
