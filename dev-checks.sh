@@ -11,7 +11,7 @@
 
 # 2: Run the script with the live site url as second argument,
 # and the dev site url as third argument e.g
-# e.g bash dev-checks.sh dmkeith-sitemap.xml https://www.dmkeith.com/ http://dmkeith.dev.cogplatform.co.uk/
+# e.g bash dev-checks.sh example-sitemap.xml https://www.dmkeith.com/ http://dmkeith.dev.cogplatform.co.uk/
 
 ###############################################################
 #INSTRUCTIONS TO RUN SCRIPT : END
